@@ -29,6 +29,6 @@ for(let x of nodosImgs){
 const colores = document.querySelectorAll(".infocard-lg-data.text-muted")
 for(let x of colores){
     if(x.lastElementChild.lastElementChild.getAttribute("class") == "itype flying"){
-        x.style.background = 'red';
+        x.style.background = 'blue';
     }
 }//Este me ha costado un poquito más
